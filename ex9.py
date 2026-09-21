@@ -97,5 +97,4 @@ b.devolver("978-0451524935")
 print(b.prestamos_activos())
 # [Prestamo(Ana -> 'Cien años de soledad', activo=True)]
 
-# Intentar prestar un libro ya prestado → error controlado
 b.prestar("978-0307474728", 2)
